@@ -133,8 +133,8 @@ body {
     box-shadow: none;
     height: auto;
     line-height: 1.5;
-    font-size: max(18px);
-    padding: 10px;
+    font-size: 0.7rem;
+    padding: 8px;
     background-color: #F2ECF8;
     color: #000;
     border-radius: 0;
