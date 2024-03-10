@@ -77,6 +77,19 @@ body {
 
 .box #img-caption {
   transform: rotateY(180deg);
+  animation: rotateImgCap 1s;
+}
+
+@keyframes rotateImgCap {
+  0% {
+    transform: rotateY(-180deg);
+  }
+  50% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(-180deg);
+  }
 }
 
 .box:hover #img-caption {
@@ -85,6 +98,22 @@ body {
 
 .box:hover #image {
   transform: rotateY(-180deg);
+}
+
+.box #image {
+  animation: rotateImage 1s;
+}
+
+@keyframes rotateImage {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(-180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
 }
 
 #image {
