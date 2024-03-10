@@ -172,8 +172,12 @@ body {
     position: relative;
     backface-visibility: visible;
   }
+  .box #image {
+    animation: none;
+  }
   .box #img-caption {
     transform: rotateY(0);
+    animation: none;
   }
   #detailed-lists {
     list-style-type: none;
